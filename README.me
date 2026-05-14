@@ -1,0 +1,49 @@
+
+Auto Evidence QA Demo  
+
+This project demonstrates a QA/UAT automation workflow with evidence capture, reporting, and a demo login site. It is designed as a portfolio project to showcase automation, test case design, and professional reporting.  
+
+Quick Start  
+1. Install dependencies:  
+   pip install selenium python-docx  
+   Make sure Chrome and ChromeDriver are installed.  
+
+2. Expand project structure:  
+   python src/setup_project.py  
+
+3. Run demo tests:  
+   cd scripts  
+   python browser_test.py  
+
+Outputs  
+- logs/browser_test_log.csv → execution log  
+- screenshots/ → screenshots of each test case  
+- reports/Fail_Report.docx → Word report with summary + fail case details  
+- Test Result.docx → manual document placed with README.me, containing all screenshots and summarized results for review  
+
+For consolidated evidence, open **Test Result.docx** next to this README to see summary, logs, and screenshots.  
+
+Folder Structure  
+auto-evidence/  
+  README.me  
+  spec.md  
+  Test Result.docx  
+  src/setup_project.py  
+
+Running setup_project.py will expand additional folders:  
+  scripts/        → contains browser_test.py  
+  data/           → login_test_data.csv  
+  logs/           → test execution logs  
+  screenshots/    → captured evidence  
+  reports/        → Word report  
+  demo_site.html  → demo login page  
+
+Methodology  
+
+This Auto Evidence QA Demo project was completed with the assistance of AI Copilot, which generated much of the coding and draft documentation. The AI provided:  
+- Code modules for project setup, demo site, test data, and Selenium automation.  
+- Draft documentation across README, specification, and reporting workflow.  
+
+My contribution focused on:  
+- Integration of components — setup script, demo site, test data, automation script, and evidence outputs — into a cohesive mini‑project that demonstrates both technical reproducibility and business clarity.  
+- Final structuring and document quality checks to ensure the project is presented in a professional and reliable manner.  

@@ -1,0 +1,13 @@
+username,password,expected
+test,1234,Login successful
+alice,pass1,Login successful
+bob,pass2,Login successful
+charlie,pass3,Login successful
+david,pass4,Login successful
+eva,pass5,Login successful
+frank,pass6,Login successful
+george,pass7,Login failed
+wrong,9999,Login failed
+hacker,0000,Login failed
+ghost,xxxx,Login successful
+intruder,passX,Login failed

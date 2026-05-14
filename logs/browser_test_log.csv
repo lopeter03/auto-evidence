@@ -1,0 +1,13 @@
+TestCaseID,Username,Password,Expected,Actual,Timestamp,Screenshot,Result
+TC1,test,1234,Login successful,Login successful,20260514_114308,D:\project\auto-evidence\scripts\..\screenshots\TC1_test_20260514_114308.png,Pass
+TC2,alice,pass1,Login successful,Login successful,20260514_114310,D:\project\auto-evidence\scripts\..\screenshots\TC2_alice_20260514_114310.png,Pass
+TC3,bob,pass2,Login successful,Login successful,20260514_114311,D:\project\auto-evidence\scripts\..\screenshots\TC3_bob_20260514_114311.png,Pass
+TC4,charlie,pass3,Login successful,Login successful,20260514_114312,D:\project\auto-evidence\scripts\..\screenshots\TC4_charlie_20260514_114312.png,Pass
+TC5,david,pass4,Login successful,Login successful,20260514_114313,D:\project\auto-evidence\scripts\..\screenshots\TC5_david_20260514_114313.png,Pass
+TC6,eva,pass5,Login successful,Login successful,20260514_114315,D:\project\auto-evidence\scripts\..\screenshots\TC6_eva_20260514_114315.png,Pass
+TC7,frank,pass6,Login successful,Login successful,20260514_114316,D:\project\auto-evidence\scripts\..\screenshots\TC7_frank_20260514_114316.png,Pass
+TC8,george,pass7,Login failed,Login failed,20260514_114317,D:\project\auto-evidence\scripts\..\screenshots\TC8_george_20260514_114317.png,Pass
+TC9,wrong,9999,Login failed,Login failed,20260514_114318,D:\project\auto-evidence\scripts\..\screenshots\TC9_wrong_20260514_114318.png,Pass
+TC10,hacker,0000,Login failed,Login failed,20260514_114320,D:\project\auto-evidence\scripts\..\screenshots\TC10_hacker_20260514_114320.png,Pass
+TC11,ghost,xxxx,Login successful,Login failed,20260514_114321,D:\project\auto-evidence\scripts\..\screenshots\TC11_ghost_20260514_114321.png,Fail
+TC12,intruder,passX,Login failed,Login successful,20260514_114322,D:\project\auto-evidence\scripts\..\screenshots\TC12_intruder_20260514_114322.png,Fail

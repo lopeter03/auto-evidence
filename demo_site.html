@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head><title>Auto Evidence Demo</title></head>
+<body>
+<h1>Login Demo Page</h1>
+<form>
+  <label>Username:</label><input type="text" id="username"><br><br>
+  <label>Password:</label><input type="password" id="password"><br><br>
+  <button type="button" onclick="login()">Login</button>
+</form>
+<p id="result"></p>
+<script>
+function login() {
+  let user = document.getElementById("username").value;
+  let pass = document.getElementById("password").value;
+  const validAccounts = {
+    "test": "1234","alice": "pass1","bob": "pass2","charlie": "pass3",
+    "david": "pass4","eva": "pass5","frank": "pass6","intruder": "passX"
+  };
+  if (validAccounts[user] === pass) {
+    document.getElementById("result").innerText = "Login successful";
+  } else {
+    document.getElementById("result").innerText = "Login failed";
+  }
+}
+</script>
+</body>
+</html>
