@@ -1,5 +1,5 @@
 
-Auto Evidence QA Demo – Specification
+Auto Evidence QA – Specification
 
 Purpose  
 Provide a self‑contained QA/UAT demo project that:  
